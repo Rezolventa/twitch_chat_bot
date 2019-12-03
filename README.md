@@ -1,6 +1,7 @@
 # Twitch IO Chat-bot
 A simple Twitch chat bot for handling media play and viewers activity.
 # Getting started
+Follow these simple instructions to get a copy of a project for personal use and testing.
 ## Prerequisites
 To launch bot you have your MongoDB to be installed.
 ## Installing
