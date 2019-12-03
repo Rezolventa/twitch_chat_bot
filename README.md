@@ -15,5 +15,5 @@ Basically, an xp amount shows how active the current viewer was through over the
 # What do viewers spend currency on?
 A viewer can trigger a specific '.wav' sound with commands so the sound will be played on live-stream right away.
 In addition a viewer can call commands to display his total xp and a number of coins in his pocket.
-#TODO
+# TODO
 The most wanted feature right now is to display viewer data online on live-stream as a dynamic html.
