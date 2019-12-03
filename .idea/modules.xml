@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../coffee_store/.idea/coffee_store.iml" filepath="$PROJECT_DIR$/../coffee_store/.idea/coffee_store.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/twitch_io_chat.iml" filepath="$PROJECT_DIR$/.idea/twitch_io_chat.iml" />
     </modules>
   </component>

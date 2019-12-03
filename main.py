@@ -1,4 +1,5 @@
 from twitchio.ext import commands
+# токен начинается с 'oauth:', далее ник и имя канала (например, свой же)
 from settings import OATH_TOKEN, NICK, CHAN, SUPER_USER
 import winsound
 from mongo import pay_xp_coins, add_click, get_xp_data
@@ -19,7 +20,7 @@ class Bot(commands.Bot):
         pay_xp_coins(message.author)
         await self.handle_commands(message)
 
-    # TODO: !xp, !give, !money, charging_minerals
+    # TODO: !xp, !give, !money, !charge, !bob
     @commands.command(name='hello')
     async def my_command(self, ctx):
         await ctx.send(f'Hello {ctx.author.name}!')
