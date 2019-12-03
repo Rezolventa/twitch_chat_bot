@@ -1,5 +1,18 @@
 # Twitch IO Chat-bot
 A simple Twitch chat bot for handling media play and viewers activity.
+# How to install
+To launch bot you have your MongoDB to be installed. Clone the repository, crate a new virtual env and install all dependencies from a requirements.txt file.
+```
+pip install -r requirements.txt
+```
+Link your MongoDB collection in mongo.py
+```
+collection = client.your_base.your_collection
+```
+Start bot with main.py. No parameters required.
+```
+python main.py
+```
 # Structure
 main.py contains mostly commands and events
 
