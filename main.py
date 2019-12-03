@@ -26,7 +26,9 @@ class Bot(commands.Bot):
 
     @commands.command(name='help')
     async def help(self, ctx):
-        await ctx.send('На стадии бета-тестирования доступны следующие команды: !money !clap !shame')
+        await ctx.send('За активность в чате начисляется опыт и минералы. Используй накопления для звуковых команд во ' 
+                       'время стрима. На стадии бета-тестирования доступны следующие команды: !click !lvl !tank !clap '
+                       '!shame.')
 
     @commands.command(name='click')
     async def click(self, ctx):
@@ -36,7 +38,8 @@ class Bot(commands.Bot):
     @commands.command(name='lvl')
     async def display_level(self, ctx):
         xp_data = get_xp_data(ctx.author.name)
-        await ctx.send('{} уровень {}, опыт {}/{}. Счет в банке {} минералов.'.format(ctx.author.name.capitalize(), xp_data['lvl'], xp_data['xp'], xp_data['xp_for_level'], xp_data['coins']))
+        await ctx.send('{} уровень {}, опыт {}/{}. Счет в банке {} минералов.'.format(ctx.author.name.capitalize(),
+                                            xp_data['lvl'], xp_data['xp'], xp_data['xp_for_level'], xp_data['coins']))
 
     @commands.command(name='clap')
     async def clap(self, ctx):
@@ -47,7 +50,7 @@ class Bot(commands.Bot):
         playsound('sound/shame.wav')
 
     @commands.command(name='tank')
-    async def shame(self, ctx):
+    async def tank(self, ctx):
         playsound('sound/tank.wav')
 
 def playsound(path):
