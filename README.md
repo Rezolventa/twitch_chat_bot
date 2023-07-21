@@ -34,12 +34,32 @@ adds some russian language declination features to bot answers
 /sound/
 ```
 has all the media files
-# Xp and Coins system
-Everytime a viewer posts a message in chat the script counts how much time has passed since the previous message. If it's more than a minute the viewer gets and xp and a coin. This prevents spammers to get more points.
+# Xp and Currency system
+Every time a viewer posts a message in chat the script counts how much time has passed since the previous message. If it's more than a minute the viewer gets and xp and a coin. This prevents spammers to get more points.
 
 Basically, an xp amount shows how active the current viewer was through over the channel history while coins are kind of currency the viewer can spend.
-# What do viewers spend currency on?
+## What do viewers spend currency on?
 A viewer can trigger a specific audio meme with bot commands so the sound will be played on live-stream right away.
 In addition a viewer can call commands to display his total xp and a number of currency in his pocket.
+## Audio commands
+Commands to play specific audio meme.
+```
+!clap
+!shame
+!tank
+```
+## Text commands
+```
+!help
+```
+a short tip for new viewers
+```
+!level
+```
+displays your level
+```
+!click
+```
+displays how many clicks were for today
 # TODO
 The most wanted feature right now is to display viewer data online on live-stream as a dynamic html.
