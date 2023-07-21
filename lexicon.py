@@ -1,5 +1,11 @@
 
-def raz_raza(count):
-    if count % 10 >= 2 and count % 10 <= 4 and count % 100 != 12 and count % 100 != 13 and count % 100 != 14:
-        return 'раза'
-    return 'раз'
+def decline_count(count):
+    """Склоняет слово раз."""
+    if (
+        2 <= count % 10 <= 4
+        and count % 100 != 12
+        and count % 100 != 13
+        and count % 100 != 14
+    ):
+        return "раза"
+    return "раз"

@@ -1,3 +1,4 @@
 env/
+venv/
 scratch.py
 settings.py
