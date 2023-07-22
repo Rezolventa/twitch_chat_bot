@@ -1,4 +1,3 @@
-
 def decline_count(count):
     """Склоняет слово раз."""
     if (

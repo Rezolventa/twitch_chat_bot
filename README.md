@@ -4,8 +4,10 @@ A simple Twitch chat bot for handling media play and viewers activity.
 Follow these simple instructions to get a copy of a project for personal use and testing.
 ## Prerequisites
 To launch bot you have your MongoDB to be installed.
+
+Also you will need a second twitch account for bot usage.
 ## Installing
- Clone the repository, create a new virtual environment and install all dependencies from a requirements.txt file.
+Clone the repository, create a new virtual environment and install all dependencies from a requirements.txt file.
 ```
 pip install -r requirements.txt
 ```
@@ -13,6 +15,11 @@ Link your MongoDB collection in mongo.py
 ```
 collection = client.your_base.your_collection
 ```
+Copy ```settings-example.py``` to ```settings.py``` and fill in your twitch accounts data such as your main account
+name, bot account name and bot oath token.
+
+***Warning: Never upload your twitch accounts data to public resources!*** 
+
 Start bot with main.py. No parameters required.
 ```
 python main.py

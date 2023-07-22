@@ -44,7 +44,9 @@ class Bot(commands.Bot):
     @commands.command(name="click")
     async def click(self, ctx):
         clicks = add_click()
-        await ctx.send("За сегодня кликнули {} {}".format(clicks, decline_count(clicks)))
+        await ctx.send(
+            "За сегодня кликнули {} {}".format(clicks, decline_count(clicks))
+        )
 
     @commands.command(name="lvl")
     async def display_level(self, ctx):
