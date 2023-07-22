@@ -60,6 +60,6 @@ displays your level
 ```
 !click
 ```
-displays how many clicks were for today
+displays how many clicks were there during the stream
 # TODO
 The most wanted feature right now is to display viewer data online on live-stream as a dynamic html.
