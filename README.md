@@ -20,6 +20,7 @@ name, bot account name and bot oath token.
 
 ***Warning: Never upload your twitch accounts data to public resources!*** 
 
+## Running
 Start bot with main.py. No parameters required.
 ```
 python main.py
