@@ -3,9 +3,9 @@ A simple Twitch chat bot for handling media play and viewers activity.
 # Getting started
 Follow these simple instructions to get a copy of a project for personal use and testing.
 ## Prerequisites
-To launch bot you have your MongoDB to be installed.
+To launch bot you need to install MongoDB.
 
-Also you will need a second twitch account for bot usage.
+Also you will need a second Twitch account for bot usage.
 ## Installing
 Clone the repository, create a new virtual environment and install all dependencies from a requirements.txt file.
 ```
